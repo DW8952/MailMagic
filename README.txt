@@ -23,7 +23,7 @@ never get trapped inside the exe, so you can zip the folder and mail it.
     game folder/
         game.exe
         playerdata/
-            luke.json
+            BabolTS.json
             her.json
 
 Zip the WHOLE folder every time you send it. Whoever has the zip is the one
