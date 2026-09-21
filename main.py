@@ -1,6 +1,6 @@
 """
 =============================================================================
- main.py  --  RUNEBOUND RIVALS
+ main.py  --  MAIL MAGIC
 =============================================================================
 Run this file to play. Everything the player sees starts here.
 
@@ -14,7 +14,7 @@ Folder layout (keep it exactly like this when you zip it up and mail it):
         economy.py
         ui.py
         playerdata/
-            luke.json
+            BabolTS.json
             her.json
 
 Building the exe:
@@ -35,7 +35,7 @@ import economy
 import storage
 import ui
 
-GAME_NAME = "RUNEBOUND RIVALS"
+GAME_NAME = "MAILMAGIC"
 
 
 # ==========================================================================
@@ -662,7 +662,7 @@ if __name__ == "__main__":
     except Exception:                      # keeps the .exe window open on a bug
         traceback.print_exc()
         try:
-            input("\nSomething broke. Send this text to Luke. ENTER to close.")
+            input("\nSomething broke. Send this text to BabolTS. ENTER to close.")
         except EOFError:
             pass
         sys.exit(1)
